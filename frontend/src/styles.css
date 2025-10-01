@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom */
+body { font-family: Inter, system-ui, sans-serif; }
+.container { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+.card { background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; }
